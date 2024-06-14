@@ -1,0 +1,3 @@
+to run on simgrid, run the foll code on the terminal
+smpicc -O3 MPIsum.c -o MPIsum
+smpirun -np 4 -platform cluster_crossbar.xml -hostfilr cluster_hostfile ./MPIsum
